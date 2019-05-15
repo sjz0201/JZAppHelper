@@ -10,6 +10,6 @@
 #define JZHelperHeader_h
 
 #import "YYHelper.h"
-
+#import "GradientAlphaView.h"
 
 #endif /* JZHelperHeader_h */
