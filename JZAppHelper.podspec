@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "JZAppHelper"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "第一个pod工具"
 
   # This description is used to generate tags and improve search results.
@@ -94,7 +94,7 @@ Pod::Spec.new do |spec|
   spec.source_files  = "JZAppHelper/Tools/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
 
-  spec.public_header_files = "JZAppHelper/Tools/JZHelperHeader.h"
+  spec.public_header_files = "JZAppHelper/Tools/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
