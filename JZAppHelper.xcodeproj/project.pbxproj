@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C65A3681228BE8120039E278 /* GradientAlphaView.m in Sources */ = {isa = PBXBuildFile; fileRef = C65A3680228BE8120039E278 /* GradientAlphaView.m */; };
 		C6DF945F228BA3CB00FCB9C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DF945E228BA3CB00FCB9C3 /* AppDelegate.m */; };
 		C6DF9462228BA3CB00FCB9C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DF9461228BA3CB00FCB9C3 /* ViewController.m */; };
 		C6DF9465228BA3CB00FCB9C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6DF9463228BA3CB00FCB9C3 /* Main.storyboard */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C65A367F228BE8120039E278 /* GradientAlphaView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradientAlphaView.h; sourceTree = "<group>"; };
+		C65A3680228BE8120039E278 /* GradientAlphaView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientAlphaView.m; sourceTree = "<group>"; };
 		C6DF945A228BA3CB00FCB9C3 /* JZAppHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZAppHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6DF945D228BA3CB00FCB9C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C6DF945E228BA3CB00FCB9C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -143,6 +146,8 @@
 				C6DF9498228BA97A00FCB9C3 /* JZHelperHeader.h */,
 				C6DF9497228BA97A00FCB9C3 /* YYHelper.h */,
 				C6DF9499228BA97A00FCB9C3 /* YYHelper.m */,
+				C65A367F228BE8120039E278 /* GradientAlphaView.h */,
+				C65A3680228BE8120039E278 /* GradientAlphaView.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -281,6 +286,7 @@
 				C6DF946D228BA3CC00FCB9C3 /* main.m in Sources */,
 				C6DF945F228BA3CB00FCB9C3 /* AppDelegate.m in Sources */,
 				C6DF949A228BA97A00FCB9C3 /* YYHelper.m in Sources */,
+				C65A3681228BE8120039E278 /* GradientAlphaView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
