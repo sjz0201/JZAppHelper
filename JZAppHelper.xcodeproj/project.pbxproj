@@ -15,7 +15,7 @@
 		C6DF946D228BA3CC00FCB9C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DF946C228BA3CC00FCB9C3 /* main.m */; };
 		C6DF9477228BA3CC00FCB9C3 /* JZAppHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DF9476228BA3CC00FCB9C3 /* JZAppHelperTests.m */; };
 		C6DF9482228BA3CC00FCB9C3 /* JZAppHelperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DF9481228BA3CC00FCB9C3 /* JZAppHelperUITests.m */; };
-		C6DF9493228BA45D00FCB9C3 /* GAuthorityTools.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DF9492228BA45D00FCB9C3 /* GAuthorityTools.m */; };
+		C6DF9496228BA78600FCB9C3 /* YYHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DF9495228BA78600FCB9C3 /* YYHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +53,8 @@
 		C6DF9481228BA3CC00FCB9C3 /* JZAppHelperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZAppHelperUITests.m; sourceTree = "<group>"; };
 		C6DF9483228BA3CC00FCB9C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6DF9490228BA42300FCB9C3 /* JZHelperHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZHelperHeader.h; sourceTree = "<group>"; };
-		C6DF9491228BA45D00FCB9C3 /* GAuthorityTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAuthorityTools.h; sourceTree = "<group>"; };
-		C6DF9492228BA45D00FCB9C3 /* GAuthorityTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAuthorityTools.m; sourceTree = "<group>"; };
+		C6DF9494228BA78600FCB9C3 /* YYHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYHelper.h; sourceTree = "<group>"; };
+		C6DF9495228BA78600FCB9C3 /* YYHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,9 +140,9 @@
 		C6DF948F228BA3F700FCB9C3 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				C6DF9491228BA45D00FCB9C3 /* GAuthorityTools.h */,
-				C6DF9492228BA45D00FCB9C3 /* GAuthorityTools.m */,
 				C6DF9490228BA42300FCB9C3 /* JZHelperHeader.h */,
+				C6DF9494228BA78600FCB9C3 /* YYHelper.h */,
+				C6DF9495228BA78600FCB9C3 /* YYHelper.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -278,9 +278,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6DF9462228BA3CB00FCB9C3 /* ViewController.m in Sources */,
-				C6DF9493228BA45D00FCB9C3 /* GAuthorityTools.m in Sources */,
 				C6DF946D228BA3CC00FCB9C3 /* main.m in Sources */,
 				C6DF945F228BA3CB00FCB9C3 /* AppDelegate.m in Sources */,
+				C6DF9496228BA78600FCB9C3 /* YYHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
