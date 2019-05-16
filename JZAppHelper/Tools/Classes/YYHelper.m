@@ -11,8 +11,15 @@
 @implementation YYHelper
 +(void)showSuccessWithText:(NSString *)text{
     //设置显示时间
+    
+    
+    
+    NSBundle *bundle = [NSBundle bundleForClass:[YYHelper class]];
+    NSURL *url = [bundle URLForResource:@"JZApp" withExtension:@"bundle"];
+    NSBundle *imageBundle = [NSBundle bundleWithURL:url];
+    UIImage *infoImage = [UIImage imageWithContentsOfFile:[imageBundle pathForResource:@"call_speaker" ofType:@"png"]];
     [SVProgressHUD setMinimumDismissTimeInterval:1.2];
-    [SVProgressHUD setSuccessImage:[UIImage imageNamed:@"JZApp.bundle/call_speaker"]];
+    [SVProgressHUD setSuccessImage:infoImage];
     [SVProgressHUD showSuccessWithStatus:text];
 }
 @end
