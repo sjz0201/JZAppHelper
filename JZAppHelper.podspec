@@ -100,7 +100,7 @@ Pod::Spec.new do |spec|
   end
   spec.subspec "Classes" do |aa|
     aa.source_files =  "JZAppHelper/Tools/Classes/*.{h,m}"
-    aa.dependency 'JZAppHelper/Tools/Views'
+    aa.dependency 'JZAppHelper/Views'
 
   end
 
