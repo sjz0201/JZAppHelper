@@ -93,7 +93,7 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "JZAppHelper/Tools/JZHelperHeader.h"
   # spec.exclude_files = "Classes/Exclude"
-  spec.subspec "Classs" do |aa|
+  spec.subspec "Classes" do |aa|
     aa.source_files =  "JZAppHelper/Tools/Classes/*.{h,m}"
 
   end
