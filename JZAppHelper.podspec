@@ -94,16 +94,17 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "JZAppHelper/Tools/JZHelperHeader.h"
   # spec.exclude_files = "Classes/Exclude"
-  spec.subspec "Classes" do |aa|
-    aa.source_files =  "JZAppHelper/Tools/Classes/*.{h,m}"
-    aa.dependency 'SVProgressHUD', '~> 2.2.5'
-
-  end
-
   spec.subspec "Views" do |bb|
     bb.source_files =  "JZAppHelper/Tools/Views/*.{h,m}"
 
   end
+  spec.subspec "Classes" do |aa|
+    aa.source_files =  "JZAppHelper/Tools/Classes/*.{h,m}"
+    aa.dependency 'JZAppHelper/Tools/Views'
+
+  end
+
+  
 
 
   # spec.public_header_files = "JZAppHelper/Tools/*.h"
