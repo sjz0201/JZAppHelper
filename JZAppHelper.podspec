@@ -109,7 +109,7 @@ Pod::Spec.new do |spec|
 
   # spec.public_header_files = "JZAppHelper/Tools/*.h"
 
-  spec.resources = 'JZAppHelper/Tools/pics/*.png'
+  spec.resources = 'JZAppHelper/Tools/pics/JZAPPImage.xcassets'
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
