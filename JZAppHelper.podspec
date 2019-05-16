@@ -90,11 +90,13 @@ Pod::Spec.new do |spec|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
+  spec.public_header_files = 'JZAppHelper/Tools/JZHelperHeader.h'
 
   spec.source_files  = "JZAppHelper/Tools/JZHelperHeader.h"
   # spec.exclude_files = "Classes/Exclude"
   spec.subspec "Classes" do |aa|
     aa.source_files =  "JZAppHelper/Tools/Classes/*.{h,m}"
+    aa.dependency 'SVProgressHUD', '~> 2.2.5'
 
   end
 
@@ -104,7 +106,7 @@ Pod::Spec.new do |spec|
   end
 
 
-  spec.public_header_files = "JZAppHelper/Tools/*.h"
+  # spec.public_header_files = "JZAppHelper/Tools/*.h"
 
   spec.ios.resource_bundle = { 'images' => 'JZAppHelper/Tools/pics/*.png' }
 
