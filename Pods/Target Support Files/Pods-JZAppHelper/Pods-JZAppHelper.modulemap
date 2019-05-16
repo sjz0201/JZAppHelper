@@ -1,0 +1,6 @@
+framework module Pods_JZAppHelper {
+  umbrella header "Pods-JZAppHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,7 +7,11 @@
 //
 
 #import "YYHelper.h"
-
+#import "SVProgressHUD.h"
 @implementation YYHelper
-
++(void)showSuccessWithText:(NSString *)text{
+    //设置显示时间
+    [SVProgressHUD setMinimumDismissTimeInterval:1.2];
+    [SVProgressHUD showSuccessWithStatus:text];
+}
 @end

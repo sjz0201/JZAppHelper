@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FF38D393A295B94D3DA015D /* Pods_JZAppHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD4BBBBA8807DD372442052 /* Pods_JZAppHelper.framework */; };
 		C65A3681228BE8120039E278 /* GradientAlphaView.m in Sources */ = {isa = PBXBuildFile; fileRef = C65A3680228BE8120039E278 /* GradientAlphaView.m */; };
 		C6DF945F228BA3CB00FCB9C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DF945E228BA3CB00FCB9C3 /* AppDelegate.m */; };
 		C6DF9462228BA3CB00FCB9C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DF9461228BA3CB00FCB9C3 /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D9F39D830310A74F9D7CBDE /* Pods-JZAppHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZAppHelper.debug.xcconfig"; path = "Target Support Files/Pods-JZAppHelper/Pods-JZAppHelper.debug.xcconfig"; sourceTree = "<group>"; };
+		BD09452266CF6875BE025AFC /* Pods-JZAppHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZAppHelper.release.xcconfig"; path = "Target Support Files/Pods-JZAppHelper/Pods-JZAppHelper.release.xcconfig"; sourceTree = "<group>"; };
 		C65A367F228BE8120039E278 /* GradientAlphaView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradientAlphaView.h; sourceTree = "<group>"; };
 		C65A3680228BE8120039E278 /* GradientAlphaView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientAlphaView.m; sourceTree = "<group>"; };
 		C6DF945A228BA3CB00FCB9C3 /* JZAppHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZAppHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,6 +61,7 @@
 		C6DF9497228BA97A00FCB9C3 /* YYHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYHelper.h; sourceTree = "<group>"; };
 		C6DF9498228BA97A00FCB9C3 /* JZHelperHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZHelperHeader.h; sourceTree = "<group>"; };
 		C6DF9499228BA97A00FCB9C3 /* YYHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYHelper.m; sourceTree = "<group>"; };
+		DFD4BBBBA8807DD372442052 /* Pods_JZAppHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JZAppHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF38D393A295B94D3DA015D /* Pods_JZAppHelper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +90,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		92AB0F80E1CF798897A3D650 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D9F39D830310A74F9D7CBDE /* Pods-JZAppHelper.debug.xcconfig */,
+				BD09452266CF6875BE025AFC /* Pods-JZAppHelper.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C6DF9451228BA3CB00FCB9C3 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +107,8 @@
 				C6DF9475228BA3CC00FCB9C3 /* JZAppHelperTests */,
 				C6DF9480228BA3CC00FCB9C3 /* JZAppHelperUITests */,
 				C6DF945B228BA3CB00FCB9C3 /* Products */,
+				92AB0F80E1CF798897A3D650 /* Pods */,
+				F9DAC4D3D71C5E277F0E53DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,6 +169,14 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
+		F9DAC4D3D71C5E277F0E53DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFD4BBBBA8807DD372442052 /* Pods_JZAppHelper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6DF9486228BA3CC00FCB9C3 /* Build configuration list for PBXNativeTarget "JZAppHelper" */;
 			buildPhases = (
+				0F6E401855F71A343BC526BC /* [CP] Check Pods Manifest.lock */,
 				C6DF9456228BA3CB00FCB9C3 /* Sources */,
 				C6DF9457228BA3CB00FCB9C3 /* Frameworks */,
 				C6DF9458228BA3CB00FCB9C3 /* Resources */,
+				B4A8E2E3805AEE598AE1D58A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -276,6 +303,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F6E401855F71A343BC526BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JZAppHelper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4A8E2E3805AEE598AE1D58A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JZAppHelper/Pods-JZAppHelper-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JZAppHelper/Pods-JZAppHelper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C6DF9456228BA3CB00FCB9C3 /* Sources */ = {
@@ -455,6 +529,7 @@
 		};
 		C6DF9487228BA3CC00FCB9C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D9F39D830310A74F9D7CBDE /* Pods-JZAppHelper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -473,6 +548,7 @@
 		};
 		C6DF9488228BA3CC00FCB9C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD09452266CF6875BE025AFC /* Pods-JZAppHelper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
