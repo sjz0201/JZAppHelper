@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "YYHelper.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [YYHelper showSuccessWithText:@"nia"];
     // Do any additional setup after loading the view.
 }
 

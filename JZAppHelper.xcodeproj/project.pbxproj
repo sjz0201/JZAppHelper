@@ -10,7 +10,7 @@
 		3FF38D393A295B94D3DA015D /* Pods_JZAppHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD4BBBBA8807DD372442052 /* Pods_JZAppHelper.framework */; };
 		C6CCA1B6228D396C003351C0 /* YYHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CCA1B1228D396C003351C0 /* YYHelper.m */; };
 		C6CCA1B7228D396C003351C0 /* GradientAlphaView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CCA1B5228D396C003351C0 /* GradientAlphaView.m */; };
-		C6CCA1C0228D4A36003351C0 /* pics.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6CCA1BF228D4A36003351C0 /* pics.xcassets */; };
+		C6CCA1C4228D4F31003351C0 /* JZApp.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C6CCA1C3228D4F31003351C0 /* JZApp.bundle */; };
 		C6DF945F228BA3CB00FCB9C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DF945E228BA3CB00FCB9C3 /* AppDelegate.m */; };
 		C6DF9462228BA3CB00FCB9C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DF9461228BA3CB00FCB9C3 /* ViewController.m */; };
 		C6DF9465228BA3CB00FCB9C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6DF9463228BA3CB00FCB9C3 /* Main.storyboard */; };
@@ -45,7 +45,7 @@
 		C6CCA1B2228D396C003351C0 /* YYHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYHelper.h; sourceTree = "<group>"; };
 		C6CCA1B4228D396C003351C0 /* GradientAlphaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientAlphaView.h; sourceTree = "<group>"; };
 		C6CCA1B5228D396C003351C0 /* GradientAlphaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientAlphaView.m; sourceTree = "<group>"; };
-		C6CCA1BF228D4A36003351C0 /* pics.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = pics.xcassets; sourceTree = "<group>"; };
+		C6CCA1C3228D4F31003351C0 /* JZApp.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JZApp.bundle; sourceTree = "<group>"; };
 		C6DF945A228BA3CB00FCB9C3 /* JZAppHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZAppHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6DF945D228BA3CB00FCB9C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C6DF945E228BA3CB00FCB9C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -122,7 +122,7 @@
 		C6CCA1B8228D3A12003351C0 /* pics */ = {
 			isa = PBXGroup;
 			children = (
-				C6CCA1BF228D4A36003351C0 /* pics.xcassets */,
+				C6CCA1C3228D4F31003351C0 /* JZApp.bundle */,
 			);
 			path = pics;
 			sourceTree = "<group>";
@@ -311,7 +311,7 @@
 				C6DF946A228BA3CC00FCB9C3 /* LaunchScreen.storyboard in Resources */,
 				C6DF9467228BA3CC00FCB9C3 /* Assets.xcassets in Resources */,
 				C6DF9465228BA3CB00FCB9C3 /* Main.storyboard in Resources */,
-				C6CCA1C0228D4A36003351C0 /* pics.xcassets in Resources */,
+				C6CCA1C4228D4F31003351C0 /* JZApp.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
