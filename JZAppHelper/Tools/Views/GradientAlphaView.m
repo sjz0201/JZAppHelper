@@ -13,6 +13,7 @@
 - (instancetype)initWithFrame:(CGRect)frame leftColor:(UIColor *)leftcolor rightColor:(UIColor *)rightcolor{
     self = [super initWithFrame:frame];
     if (self) {
+        
         CAGradientLayer *gradientLayer = [CAGradientLayer layer];
         gradientLayer.colors = @[(__bridge id)leftcolor.CGColor, (__bridge id)rightcolor.CGColor];
         gradientLayer.locations = @[@0, @1.0];

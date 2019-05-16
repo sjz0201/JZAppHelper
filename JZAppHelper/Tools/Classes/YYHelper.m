@@ -14,12 +14,11 @@
     
     
     
-    NSBundle *bundle = [NSBundle bundleForClass:[YYHelper class]];
-    NSURL *url = [bundle URLForResource:@"JZApp" withExtension:@"bundle"];
-    NSBundle *imageBundle = [NSBundle bundleWithURL:url];
-    UIImage *infoImage = [UIImage imageWithContentsOfFile:[imageBundle pathForResource:@"call_speaker" ofType:@"png"]];
+    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+   UIImage *image = [UIImage imageNamed:@"call_speaker" inBundle:bundle compatibleWithTraitCollection:nil];
+//    UIImage *infoImage = [UIImage imageWithContentsOfFile:[imageBundle pathForResource:@"call_speaker" ofType:@"png"]];
     [SVProgressHUD setMinimumDismissTimeInterval:1.2];
-    [SVProgressHUD setSuccessImage:infoImage];
+    [SVProgressHUD setSuccessImage:image];
     [SVProgressHUD showSuccessWithStatus:text];
 }
 @end
