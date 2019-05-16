@@ -12,6 +12,7 @@
 +(void)showSuccessWithText:(NSString *)text{
     //设置显示时间
     [SVProgressHUD setMinimumDismissTimeInterval:1.2];
+    [SVProgressHUD setSuccessImage:[UIImage imageNamed:@"call_speaker"]];
     [SVProgressHUD showSuccessWithStatus:text];
 }
 @end

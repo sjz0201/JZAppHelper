@@ -8,7 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3FF38D393A295B94D3DA015D /* Pods_JZAppHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD4BBBBA8807DD372442052 /* Pods_JZAppHelper.framework */; };
-		C65A3681228BE8120039E278 /* GradientAlphaView.m in Sources */ = {isa = PBXBuildFile; fileRef = C65A3680228BE8120039E278 /* GradientAlphaView.m */; };
+		C6CCA1B6228D396C003351C0 /* YYHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CCA1B1228D396C003351C0 /* YYHelper.m */; };
+		C6CCA1B7228D396C003351C0 /* GradientAlphaView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CCA1B5228D396C003351C0 /* GradientAlphaView.m */; };
+		C6CCA1BB228D3A12003351C0 /* call_speaker@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6CCA1B9228D3A12003351C0 /* call_speaker@3x.png */; };
+		C6CCA1BC228D3A12003351C0 /* call_speaker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6CCA1BA228D3A12003351C0 /* call_speaker@2x.png */; };
 		C6DF945F228BA3CB00FCB9C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DF945E228BA3CB00FCB9C3 /* AppDelegate.m */; };
 		C6DF9462228BA3CB00FCB9C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DF9461228BA3CB00FCB9C3 /* ViewController.m */; };
 		C6DF9465228BA3CB00FCB9C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6DF9463228BA3CB00FCB9C3 /* Main.storyboard */; };
@@ -17,7 +20,6 @@
 		C6DF946D228BA3CC00FCB9C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DF946C228BA3CC00FCB9C3 /* main.m */; };
 		C6DF9477228BA3CC00FCB9C3 /* JZAppHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DF9476228BA3CC00FCB9C3 /* JZAppHelperTests.m */; };
 		C6DF9482228BA3CC00FCB9C3 /* JZAppHelperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DF9481228BA3CC00FCB9C3 /* JZAppHelperUITests.m */; };
-		C6DF949A228BA97A00FCB9C3 /* YYHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DF9499228BA97A00FCB9C3 /* YYHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +42,12 @@
 /* Begin PBXFileReference section */
 		1D9F39D830310A74F9D7CBDE /* Pods-JZAppHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZAppHelper.debug.xcconfig"; path = "Target Support Files/Pods-JZAppHelper/Pods-JZAppHelper.debug.xcconfig"; sourceTree = "<group>"; };
 		BD09452266CF6875BE025AFC /* Pods-JZAppHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZAppHelper.release.xcconfig"; path = "Target Support Files/Pods-JZAppHelper/Pods-JZAppHelper.release.xcconfig"; sourceTree = "<group>"; };
-		C65A367F228BE8120039E278 /* GradientAlphaView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradientAlphaView.h; sourceTree = "<group>"; };
-		C65A3680228BE8120039E278 /* GradientAlphaView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientAlphaView.m; sourceTree = "<group>"; };
+		C6CCA1B1228D396C003351C0 /* YYHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYHelper.m; sourceTree = "<group>"; };
+		C6CCA1B2228D396C003351C0 /* YYHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYHelper.h; sourceTree = "<group>"; };
+		C6CCA1B4228D396C003351C0 /* GradientAlphaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientAlphaView.h; sourceTree = "<group>"; };
+		C6CCA1B5228D396C003351C0 /* GradientAlphaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientAlphaView.m; sourceTree = "<group>"; };
+		C6CCA1B9228D3A12003351C0 /* call_speaker@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "call_speaker@3x.png"; sourceTree = "<group>"; };
+		C6CCA1BA228D3A12003351C0 /* call_speaker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "call_speaker@2x.png"; sourceTree = "<group>"; };
 		C6DF945A228BA3CB00FCB9C3 /* JZAppHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZAppHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6DF945D228BA3CB00FCB9C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C6DF945E228BA3CB00FCB9C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,9 +64,7 @@
 		C6DF947D228BA3CC00FCB9C3 /* JZAppHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JZAppHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6DF9481228BA3CC00FCB9C3 /* JZAppHelperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZAppHelperUITests.m; sourceTree = "<group>"; };
 		C6DF9483228BA3CC00FCB9C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C6DF9497228BA97A00FCB9C3 /* YYHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYHelper.h; sourceTree = "<group>"; };
 		C6DF9498228BA97A00FCB9C3 /* JZHelperHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZHelperHeader.h; sourceTree = "<group>"; };
-		C6DF9499228BA97A00FCB9C3 /* YYHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYHelper.m; sourceTree = "<group>"; };
 		DFD4BBBBA8807DD372442052 /* Pods_JZAppHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JZAppHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -96,8 +100,34 @@
 				1D9F39D830310A74F9D7CBDE /* Pods-JZAppHelper.debug.xcconfig */,
 				BD09452266CF6875BE025AFC /* Pods-JZAppHelper.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		C6CCA1B0228D396C003351C0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C6CCA1B1228D396C003351C0 /* YYHelper.m */,
+				C6CCA1B2228D396C003351C0 /* YYHelper.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C6CCA1B3228D396C003351C0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C6CCA1B4228D396C003351C0 /* GradientAlphaView.h */,
+				C6CCA1B5228D396C003351C0 /* GradientAlphaView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C6CCA1B8228D3A12003351C0 /* pics */ = {
+			isa = PBXGroup;
+			children = (
+				C6CCA1B9228D3A12003351C0 /* call_speaker@3x.png */,
+				C6CCA1BA228D3A12003351C0 /* call_speaker@2x.png */,
+			);
+			path = pics;
 			sourceTree = "<group>";
 		};
 		C6DF9451228BA3CB00FCB9C3 = {
@@ -160,11 +190,10 @@
 		C6DF948F228BA3F700FCB9C3 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				C6CCA1B8228D3A12003351C0 /* pics */,
+				C6CCA1B0228D396C003351C0 /* Classes */,
+				C6CCA1B3228D396C003351C0 /* Views */,
 				C6DF9498228BA97A00FCB9C3 /* JZHelperHeader.h */,
-				C6DF9497228BA97A00FCB9C3 /* YYHelper.h */,
-				C6DF9499228BA97A00FCB9C3 /* YYHelper.m */,
-				C65A367F228BE8120039E278 /* GradientAlphaView.h */,
-				C65A3680228BE8120039E278 /* GradientAlphaView.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -285,6 +314,8 @@
 				C6DF946A228BA3CC00FCB9C3 /* LaunchScreen.storyboard in Resources */,
 				C6DF9467228BA3CC00FCB9C3 /* Assets.xcassets in Resources */,
 				C6DF9465228BA3CB00FCB9C3 /* Main.storyboard in Resources */,
+				C6CCA1BB228D3A12003351C0 /* call_speaker@3x.png in Resources */,
+				C6CCA1BC228D3A12003351C0 /* call_speaker@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,8 +390,8 @@
 				C6DF9462228BA3CB00FCB9C3 /* ViewController.m in Sources */,
 				C6DF946D228BA3CC00FCB9C3 /* main.m in Sources */,
 				C6DF945F228BA3CB00FCB9C3 /* AppDelegate.m in Sources */,
-				C6DF949A228BA97A00FCB9C3 /* YYHelper.m in Sources */,
-				C65A3681228BE8120039E278 /* GradientAlphaView.m in Sources */,
+				C6CCA1B6228D396C003351C0 /* YYHelper.m in Sources */,
+				C6CCA1B7228D396C003351C0 /* GradientAlphaView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

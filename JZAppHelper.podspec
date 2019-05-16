@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "JZAppHelper"
-  spec.version      = "1.0.4"
+  spec.version      = "1.0.5"
   spec.summary      = "第一个pod工具"
 
   # This description is used to generate tags and improve search results.
@@ -91,10 +91,22 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "JZAppHelper/Tools/*.{h,m}"
+  spec.source_files  = "JZAppHelper/Tools/JZHelperHeader.h"
   # spec.exclude_files = "Classes/Exclude"
+  spec.subspec "Classs" do |aa|
+    aa.source_files =  "JZAppHelper/Tools/Classes/*.{h,m}"
+
+  end
+
+  spec.subspec "Classs" do |bb|
+    bb.source_files =  "JZAppHelper/Tools/Views/*.{h,m}"
+
+  end
+
 
   spec.public_header_files = "JZAppHelper/Tools/*.h"
+
+  spec.ios.resource_bundle = { 'images' => 'JZAppHelper/Tools/pics/*.png' }
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
