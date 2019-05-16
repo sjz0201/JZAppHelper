@@ -98,7 +98,7 @@ Pod::Spec.new do |spec|
 
   end
 
-  spec.subspec "Classs" do |bb|
+  spec.subspec "Views" do |bb|
     bb.source_files =  "JZAppHelper/Tools/Views/*.{h,m}"
 
   end
